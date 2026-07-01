@@ -1,0 +1,19 @@
+# Dependencias de Node.js
+# Esta carpeta se genera sola con "npm install", no necesita subirse
+node_modules/
+
+# Variables de entorno (contraseñas, claves de API, etc.)
+.env
+.env.local
+.env.production
+
+# Logs de errores que genera Node
+*.log
+npm-debug.log*
+
+# Carpeta que genera VS Code con configuraciones locales
+.vscode/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
